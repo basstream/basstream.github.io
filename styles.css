@@ -1,0 +1,411 @@
+body {
+	margin: 0;
+  color: black;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.main-container {
+	width: 972px;
+	margin: 0 auto;
+  min-height: calc(100% - 300px);
+	/*background: #EEE;*/
+}
+
+.content-wrapper {
+	width: 972px;
+  margin-top: 2px;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+}
+
+header {
+  color: #006699;
+}
+
+.logo {
+	background: url('/logo.png');
+	background-size: contain;
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  font: 100 24px/20px Formata-Light;
+  line-height: 24px;
+  position: relative;
+  top: -100px;
+  left: 200px;
+}
+
+.tel {
+  position: relative;
+  top: -165px;
+  left: 800px;
+}
+
+.mail {
+  position: relative;
+  top: -157px;
+  left: 800px;
+}
+
+.desc {
+  font: 100 17px/20px Formata-Light;
+  position: relative;
+  top: -80px;
+  left: 200px;
+}
+
+.menu {
+  position: relative;
+  top: -80px;
+}
+
+.main-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+ul.invisible > li {
+  visibility: hidden;
+}
+
+nav a {
+  color: #0663d7;
+  text-decoration: none;
+  
+  font-size: 20px;
+  line-height: 35px;
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding: 0 7px;
+}
+
+.menu-item {
+  list-style: none;
+  display: inline;  
+}
+
+nav a:hover {
+  background: #006699;
+  color: white;
+}
+
+.jumbotron {
+  position: relative;
+  top: -55px;
+  height: 450px;
+}
+
+.main-image {
+  background: url(/main.jpg);
+  height: 500px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.title {
+  margin: 20px 10px;
+  text-align: left;
+  color: #006699;
+  border-bottom: 2px solid #ccc;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+/*.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}*/
+
+.list-item {
+  display: inline-block;
+  width: 205px;
+  padding: 10px;
+  margin: 0px;
+  float: left;
+}
+
+.item-title {
+  font-size: 16px;
+  height: 42px;
+}
+
+.item-expand {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  font-size: 14px; 
+}
+
+.item-image {
+  width: 100%;
+  background: #006699;
+  height: 150px;
+}
+
+.img-engineering {
+  background: url('/images/manufacturing.jpg');
+  background-size: 240px 150px;
+}
+
+.img-manufacturing {
+  background: url('/images/engineering.jpg');
+  background-size: cover;
+}
+
+.img-testing {
+  background: url('/images/testing.jpg');
+  background-size: cover;
+}
+
+.img-certification {
+  background: url('/images/certification.jpg');
+  background-size: cover;
+}
+
+.img-spusk {
+  background: url('/images/spusk.jpg');
+  background-size: cover;
+}
+
+.img-vodolaznoe_oborudovanie {
+  background: url('/images/vodolaznoe_oborudovanie.jpg');
+  background-size: cover;
+}
+
+.img-vodolaznoe_snarajenie {
+  background: url('/images/vodolaznoe_snarajenie.jpg');
+  background-size: cover;
+}
+
+.img-tnpa {
+  background: url('/images/tnpa.jpg');
+  background-size: cover;
+}
+
+.img-avtoklav {
+  background: url('/images/avtoklav.jpg');
+  background-size: cover;
+}
+
+.img-elektro {
+  background: url('/images/elektro.jpg');
+  background-size: cover;
+}
+
+.img-vodolaznie_kompleksi {
+  background: url('/images/vodolaznie_kompleksi.jpg');
+  background-size: cover;
+}
+
+.img-baro {
+  background: url('/images/baro.jpg');
+  background-size: cover;
+}
+
+.img-pulti {
+  background: url('/images/pulti.jpg');
+  background-size: cover;
+}
+
+.img-instrument {
+  background: url('/images/instrument.jpg');
+  background-size: cover;
+}
+
+.img-zashita {
+  background: url('/images/zashita.jpg');
+  background-size: cover;
+}
+
+.img-sudovoe_oborudovanie {
+  background: url('/images/sudovoe_oborudovanie.jpg');
+  background-size: cover;
+}
+
+.elements-container {
+  padding: 0px 30px;
+  background: #efefef;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.description-list {
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  margin-left: 253px;
+}
+
+.description-item {
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.description-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.description-item a:hover {
+  color: #006699;
+}
+
+.description-item::before {
+  font-family: FontAwesome;
+  content: "\f105";
+  display: inline-block;
+  padding-right: 5px;
+  vertical-align: top;
+  color: #006699;
+}
+
+.info {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.row {
+  height: 300px;
+  clear: both;
+  padding: 30px 0px;
+}
+
+.item-line {
+  width: 30px;
+  height: 3px;
+  background: #006699;
+  margin: 30px auto;
+}
+
+.footer {
+  height: 300px;
+  width: 110%;
+  background: #006699;
+}
+
+.footer-container {
+  width: 972px;
+	margin: 0 auto;
+}
+
+.products {
+  margin: 75px 0;
+}
+
+.item-description {
+  padding: 3px;
+  transition: transform .6s;
+  /*transition: opacity .2s;*/
+  opacity: 0;
+  margin-bottom: -100px;
+}
+
+.card {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  background-color: #fff;
+  transition: box-shadow 300ms ease-in;
+  height: 250px;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+}
+
+.card-arrow {
+  color: #006699;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*.card:hover .card-title {  
+  opacity: 0;
+}
+
+.card:hover .item-description {  
+  transform: translateY(-100px);
+  opacity: 1;
+}*/
+
+/*.card:hover .card--text {
+  height: 100%;
+  overflow: auto;
+}*/
+
+.card-title {
+  border-top: 1px solid #dddddd;
+  font-size: 18px;
+  padding: 40px 0;
+  text-align: center;
+  color: #006699;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.img--container {
+  position: absolute;
+  /*height: 73%;*/
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+}
+.img--container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image {
+  width: 203px;
+  float: left;
+}
+
+.card--text {
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  background-color: #fff;
+  transition: all 450ms cubic-bezier(0.6, 0.06, 0.34, 0.61);
+  transition: all 0.3s cubic-bezier(0.17, 0.71, 0.32, 0.96);
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.certificate {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  display: block;
+}
+
+.certificate-header {
+  text-align: center;
+  color: #006699;
+}
+
+.body {
+
+}
