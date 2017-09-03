@@ -33,7 +33,32 @@
 		</div>
 
 		<div class="development">
-			<!-- <h1>Страница находится в разработке</h1> -->
+			<h2>Oбpaтнaя cвязь</h2>
+<p id="emailSuccess">
+<strong style="color:green;"></strong>
+</p>
+<p id="emailError"><strong style="color:red;"></strong></p>
+
+<div id="contactFormArea">
+<form action="./" method="post" id="cForm">
+<input type="hidden" name="act" value="y" />
+<fieldset>
+<label for="posName"><b>Ваше имя:</b></label>
+<input class="text" type="text" size="25" name="posName" id="posName" />
+<label for="posEmail"><b>Ваш E-mail адрес:</b></label>
+<input class="text" type="text" size="25" name="posEmail" id="posEmail" />
+<label for="posRegard"><b>Тема сообщения:</b></label>
+<input class="text" type="text" size="25" name="posRegard" id="posRegard" />
+<label for="posText"><b>Сообщение:</b></label>
+<textarea cols="50" rows="20" name="posText" id="posText"></textarea>
+<label for="posCaptcha"><center><b>Текст на изображении (цифры)</b>:</label><a href='readme.html'><img src="kcaptcha?PHPSESSID=7gtemc2ef1a0roatlrd1egq095" border=0></a></center><input class="text" type="text" size="25" name="keystring" id="keystring" />
+<br><br><label><input class="submit" type="submit" name="selfCC" id="selfCC" value=" Отправить " /></label>
+</fieldset>
+<center><a href='kcaptcha/kcaptcha_copy.php' target='_blank'><font size=-2 color=#dddddd>©</font></a></center>
+<center><a href='readme.html'> </a></center></form>
+</div>
+<!-- <h1>Страница находится в разработке</h1> -->
+			
 		</div>
 
 	</div>
