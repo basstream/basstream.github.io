@@ -1,5 +1,5 @@
 <?php
-$mailto = "ost@ecp-ost.ru";
+$mailto = "ost@epc-ost.ru";
 $charset = "windows-1251";
 $subject = $_POST['posRegard'];
 $content = "text/plain";
