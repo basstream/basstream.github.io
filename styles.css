@@ -176,7 +176,8 @@ nav a:hover {
 
 .img-spusk {
   background: url('/images/спускоподъемный устройства.jpg');
-  background-size: 50%;
+  background-size: contain
+;
 	/*cover*/
 }
 
