@@ -177,6 +177,7 @@ nav a:hover {
 .img-spusk {
   background: url('/images/спускоподъемный устройства.jpg');
   background-size: cover;
+	height: 50%;
 }
 
 .img-vodolaznoe_oborudovanie {
